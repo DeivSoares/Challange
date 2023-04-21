@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --Dark-Blue-300: #0a3871;
+  --Light-Gray: #d8dfe8;
+  --Gray-500: #343a40;
+  --Gray-400: #495057;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+}
+
+body header {
+  width: 100%;
+}
+
+body header svg {
+  margin-top: 4rem;
+  margin-left: 8.4rem;
+}
+
+body main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+body main h1 {
+  font-size: 2.8rem;
+  color: var(--Dark-Blue-300);
+}
+
+body main div {
+  width: 76%;
+  text-align: center;
+}
+
+body main div textarea {
+  width: 60%;
+  height: 75%;
+  resize: none;
+  border: none;
+  background: var(--Light-Gray);
+}
+
+body main div div.info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+  width: 95%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--Gray-400);
+}
+
+body main div div.buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+body main div div.buttons button:first-child {
+  background-color: var(--Dark-Blue-300);
+  color: white;
+}
+
+body main div div.buttons button:first-child:hover {
+  background-color: var(--Light-Gray);
+  color: var(--Dark-Blue-300);
+  transition: 0.7s;
+}
+
+body main div div.buttons button {
+  width: 32.8rem;
+  height: 6.7rem;
+  background-color: var(--Light-Gray);
+  color: var(--Dark-Blue-300);
+  border-radius: 2.4rem;
+  padding: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  border: 1px solid var(--Dark-Blue-300);
+  cursor: pointer;
+}
+
+body main div div.buttons button:hover {
+  background-color: var(--Dark-Blue-300);
+  color: white;
+  transition: 0.7s;
+}
+
+body main aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  /* height: 100%; */
+  /* margin-top: 4rem; */
+  margin-bottom: 4rem;
+  margin-right: 15.7rem;
+  border-radius: 3.2rem;
+  text-align: center;
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+body main aside div.svg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body main aside textarea {
+  width: 60%;
+  height: 80%;
+  resize: none;
+  border: none;
+  background: var(--Light-Gray);
+}
+
+body main aside button {
+  width: 20rem;
+  background-color: var(--Dark-Blue-300);
+  color: white;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  border: 1px solid var(--Dark-Blue-300);
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+body main aside button:hover {
+  background-color: var(--Light-Gray);
+  color: var(--Dark-Blue-300);
+}
+
+.hidden {
+  display: none;
+}
+
+body main aside div.svg h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.88rem;
+  text-align: center;
+  color: var(--Gray-500);
+}
+
+body main aside div.svg p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--Gray-400);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: var(--Light-Gray);
+  background-color: var(--Dark-Blue-300);
+}
+
+footer img {
+  width: 5rem;
+}
