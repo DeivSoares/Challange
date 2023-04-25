@@ -21,9 +21,11 @@ button[0].onclick = function () {
   });
 
   aside.innerHTML = `
+  <div>
   <h1>Seu texto criptografado</h1>
   <textarea id="output" readonly>${saidaCripto}</textarea>
-  <button onclick="copy()">Copiar</button>`;
+  <button onclick="copy()">Copiar</button>
+  </div>`;
 };
 
 button[1].onclick = function () {
@@ -47,9 +49,11 @@ button[1].onclick = function () {
     });
 
     aside.innerHTML = `
+    <div>
     <h1>Seu texto descriptografado</h1>
     <textarea id="output" readonly>${saidaCripto}</textarea>
-    <button onclick="copy()">Copiar</button>`;
+    <button onclick="copy()">Copiar</button>
+    </div>`;
 };
 
 function copy(){

@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  body main{
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  body main h1{
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  body main div{
+    width: 100%;
+    height: 50%;
+  }
+
+  body main div textarea{
+    width: 90%;
+    height: 100%;
+    font-size: 4rem;
+  }
+
+  body main div.info{
+    width: 100%;
+    height: fit-content
+  }
+
+  body main div.buttons{
+    height: auto;
+  }
+
+  body main aside{
+    margin: 0;
+  }
+
+  body main aside{
+    width: 68.8rem;
+    margin-top: 6.4rem;
+  }
+
+  body main aside div.svg svg{
+    display: none;
+  }
+
+  body main aside textarea{
+    height: 20rem;
+    font-size: 4rem;
+  }
+
+  body footer{
+    font-size: 1.6rem;
+  }
+}
